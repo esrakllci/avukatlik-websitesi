@@ -1,0 +1,194 @@
+.contact-head {
+    @apply
+    grid
+    grid-cols-12
+    mt-[34px]
+    text-center
+    text-[#3C3C3C]
+    font-bold
+    text-5xl
+    md:text-[45px]
+    text-[30px]
+}
+
+.contact-head-hr {
+    @apply
+    flex
+    mt-6
+    h-1/2
+    md:border-t-2
+    md:border-black
+}
+
+.contact-container {
+    @apply
+    md:grid
+    md:grid-cols-12
+    md:mt-[100px]
+    2xl:ml-[300px]
+}
+
+.contact-info {
+    @apply
+    col-span-5
+    2xl:col-span-4
+    ml-[90px]
+    mr-[30px]
+    mt-[65px]
+    hidden
+    md:inline-block
+}
+
+.contact-info2 {
+    @apply
+    text-[16px]
+    md:hidden
+    ml-[22px]
+    mr-[16px]
+    mb-[100px]
+    mt-[40px]
+}
+
+.contact-form {
+    @apply
+    col-span-7
+    2xl:col-span-8
+    md:flex 
+    md:flex-col 
+    w-[500px] 
+    md:mb-[300px] 
+    font-satoshi
+    hidden
+}
+
+.contact-form2 {
+    @apply
+    md:hidden
+    flex 
+    mt-[30px]
+    flex-col 
+    px-5
+    w-full 
+    font-satoshi
+}
+
+.form-name {
+    @apply
+    md:w-[280px] 
+    2xl:w-[317px]
+    w-[full]
+    md:mr-[30px] 
+}
+
+.contact-info-01 {
+    @apply
+    flex
+}
+
+.contact-info-01 p {
+    @apply
+    ml-[10px]
+    2xl:text-[23px]
+    font-satoshi
+}
+
+.contact-form input {
+    @apply
+    border-2
+    border-[#707070]
+    h-[44px]
+}
+
+.contact-form2 input {
+    @apply
+    border-2
+    border-[#707070]
+    h-[44px]
+}
+
+.contact-form p {
+    @apply
+    text-[13px]
+    2xl:text-[23px]
+}
+
+.forms-textarea {
+    @apply
+    h-[200px]
+    resize-none
+    border-2
+    border-[#707070]
+}
+
+.name-input {
+    @apply
+    mt-[6px]
+    mb-[1px]
+    md:w-[234px]
+    2xl:w-[317px]
+    w-full
+    h-[44px]        
+    border-2
+    border-[#707070]
+}
+
+.form-e-posta {
+    @apply
+    md:w-[280px]
+    2xl:w-[317px]
+    w-full
+}
+
+.e-posta-input {
+    @apply
+    md:w-[234px]
+    2xl:w-[317px]
+    w-full
+    h-[44px]
+    mt-[6px]
+    border-[#707070]
+}
+.form-title {
+    @apply
+    md:w-[500px] 
+    2xl:w-[725px]
+    /* w-[full] */
+    mt-[8px]
+}
+
+.title-input {
+    @apply
+    w-full 
+    mt-[6px]
+    md:w-[500px]
+    2xl:w-[665px]
+    h-[222px]
+    border-[#707070]
+}
+
+.form-message {
+    @apply
+    md:w-[500px] 
+    2xl:w-[665px]
+    w-full
+    h-[222px] 
+    mt-[8px]
+}
+
+.form-bttn{
+    @apply
+    w-[75px]
+    h-[32px]
+    md:ml-[425px]
+    2xl:relative
+    left-[170px]
+    text-[#3c3c3c]
+    text-[13px]
+    bg-[#E1CD96]
+    md:mr-[1px]
+    mt-[19px]
+    2xl:mt-[45px]
+    border-2
+    border-[#707070]
+    float-right
+}

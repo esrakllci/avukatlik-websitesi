@@ -1,0 +1,84 @@
+.footer-main {
+    @apply
+    bg-[#3C3C3C]
+    text-[#F5F5F5]
+}
+.footer-main-horizone {
+    @apply
+    ml-[32px]
+    md:ml-[82px]
+}
+.footer-block-1 {
+    @apply
+    text-[12px]
+}
+.footer-block-1-title {
+    @apply
+    text-[20px]
+    2xl:text-[36px]
+}
+.footer-block-1-text-1 {
+    @apply
+    mt-[10px]
+}
+.footer-line {
+    @apply
+    rounded
+    border-b-2
+    mt-[10px]
+}
+.footer-block-1-text-3 {
+    @apply
+    mt-[10px]
+}
+.footer-block-1 {
+    @apply
+    text-[12px]
+}
+.footer-block-2 {
+    @apply
+    mt-4
+    md:mt-0
+}
+.footer-block-2-title {
+    @apply
+    text-[20px]
+    2xl:text-[36px]
+}
+.footer-block-2-bar {
+    @apply
+    text-[12px]
+    2xl:text-[15px]
+}
+.footer-block-2-text-1 {
+    @apply
+    flex
+    flex-row
+}
+.footer-block-3 {
+    @apply
+    text-[12px]
+}
+.footer-block-4 {
+    @apply
+    mt-4
+    md:mt-0
+}
+.footer-block-3-title {
+    @apply
+    text-[20px]
+    2xl:text-[36px]
+}
+.footer-block-4-title {
+    @apply
+    text-[20px]
+    2xl:text-[36px]
+    font-bold
+}
+.footer-block-4-bar {
+    @apply
+    md:mt-[13px]
+    mt-[8px]
+    text-[12px]
+    2xl:text-[15px]
+}

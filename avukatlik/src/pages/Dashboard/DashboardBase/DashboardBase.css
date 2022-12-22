@@ -1,0 +1,82 @@
+.dashboardbase-main {
+    @apply
+    bg-[#FAFAFB]
+    h-[1154px]
+}
+
+.dashboardbase-header {
+    @apply
+    grid
+    grid-cols-12
+    h-[80px]
+    bg-[#FFFFFF]
+    items-center
+}
+
+.dashboardbase-header-logo {
+    @apply
+    col-span-6
+    ml-[140px]
+    text-[26px]
+    font-satoshi
+    font-bold
+    text-[#3C3C3C]
+}
+
+.dashboardbase-header-directions {
+    @apply
+    col-span-6
+    flex
+    justify-end
+    mr-[40px]
+}
+
+.dashboardbase-header-directions ul {
+    @apply
+    flex
+    items-center
+    justify-center
+}
+
+.dashboardbase-header-directions ul li {
+    @apply
+    mr-[40px]
+    flex
+}
+
+.dashboardbase-component {
+    @apply
+    /* w-full */
+    mt-[171px]
+}
+
+.dashboard-component-box {
+    @apply
+    mt-[30px]
+    border
+    py-[30px]
+    pl-[30px]
+    w-full
+    border-[#707070]
+}
+
+.dashboardbase-txt-site{
+    @apply
+    text-[#171725]
+    text-[18px]
+    font-bold
+    underline
+}
+
+.dashboardbase-box-title {
+    @apply
+    text-[#171725]
+    text-[18px]
+    font-semibold
+    font-poppins
+}
+
+.dashboardbase-box-text {
+    @apply
+    text-[#92929d]
+}

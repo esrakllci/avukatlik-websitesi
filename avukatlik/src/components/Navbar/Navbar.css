@@ -1,0 +1,153 @@
+.navbar-base {
+    @apply
+    md:grid
+    md:grid-cols-12
+    /* pt-5 */
+    fixed
+    w-full
+    justify-center
+    z-50
+    h-16
+    font-satoshi
+    font-semibold
+}
+
+.navbar-base-pc {
+    @apply
+    hidden
+    md:grid
+    md:grid-cols-12
+    pt-5
+    2xl:pt-[25px]
+    fixed
+    2xl:h-[72px]
+    w-full
+    justify-center
+    z-50
+    h-16
+    font-satoshi
+}
+
+
+.navbar-logo {
+    @apply
+    col-span-3
+    2xl:col-span-5
+    ml-10
+    2xl:text-[26px]
+    2xl:ml-[230px]
+    text-base
+}
+
+.navbar-directions {
+    @apply
+    col-span-9
+    2xl:col-span-7
+    2xl:text-[19px]
+    mr-10
+    2xl:mr-[230px]
+    text-[14px]
+}
+
+.navbar-directions ul {
+    @apply
+    flex
+    justify-end
+}
+
+.navbar-directions ul li {
+    @apply
+    mr-5
+    2xl:ml-5
+}
+
+.sidebar.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #3C3C3C;
+    backdrop-filter: blur(32px);
+    padding: 6px 14px;
+}
+
+.sidebar.active .logo-content .logo {
+    color: white;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+.sidebar.active .logo-content .logo i {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.logo-content .logo .logo_name {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sidebar.active #btn {
+    position: absolute;
+    color: white;
+    left: 10%;
+    top: 16px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+}
+.sidebar #btn {
+    position: fixed;
+    color: #7e807c;
+    left: 90%;
+    top: 16px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    z-index: 500;
+    
+}
+
+.sidebar.active ul{
+    display:block;
+    margin-top: 180px;
+}
+
+.sidebar.active ul li{
+    position: relative;
+    height: 55px;
+    width: 100%;
+    margin: 0px -30px;
+    list-style: none;
+    color: white;
+    font-weight: 200;
+    line-height: 1px;
+    text-align: right;
+    font: bold;
+    font-size: 20px;
+}
+
+
+.sidebar.active .social{
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    
+}
+
+.sidebar ul{
+    display: none;
+}
+
+.sidebar .social{
+    display: none;
+}

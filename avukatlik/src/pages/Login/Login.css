@@ -1,0 +1,54 @@
+.login-base {
+    @apply
+    bg-[#c8c8c8] 
+    flex 
+    flex-col
+    items-center
+    pt-[250px]
+    min-h-[1060px]
+}
+
+.login-logo {
+    @apply
+    text-[26px]
+    font-satoshi
+    font-bold
+    text-[#3C3C3C]
+}
+
+.login-signin {
+    @apply
+    mt-[30px]
+}
+
+.login-signin form {
+    @apply
+    flex
+    flex-col
+}
+
+.login-signin p {
+    @apply
+    text-[20px]
+    mt-[20px]
+}
+
+.login-signin input {
+    @apply
+    w-[300px]
+    h-[30px]
+    mt-[15px]
+}
+
+.login-loginbtn {
+    @apply
+    mt-[25px]
+    px-2
+    py-1
+    border
+    border-[#3C3C3C]
+    w-fit
+    mx-auto
+    rounded-2xl
+}
+

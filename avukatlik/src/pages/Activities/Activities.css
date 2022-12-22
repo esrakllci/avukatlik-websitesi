@@ -1,0 +1,50 @@
+.activities-disclosure {
+    @apply
+    md:mx-[40px]
+    lg:mx-[150px]
+    2xl:mx-[350px]
+    mx-[32px]
+    mt-[30px]
+    text-[#3c3c3c]
+}
+
+.disclosure-button {
+    @apply 
+    w-full 
+    md:pl-[78px]
+    text-center
+    pt-[36px]
+    lg:pt-[56px]
+    pb-[30px]
+    lg:pb-[50px]
+    md:text-left
+    md:text-[20px]
+    text-[22px]
+    font-bold
+    font-satoshi
+    border-t
+    border-x
+    border-[#3c3c3c]
+    text-[#3c3c3c]
+}
+
+.disclosure-panel {
+    @apply 
+    md:px-[78px]
+    md:pb-9
+    px-[17px]
+    pb-[20px]
+    text-[14px]
+    border-b
+    border-x
+    border-[#3C3C3C]
+    text-[#3c3c3c]
+    font-lora
+}
+
+.projects-head {
+    @apply
+    md:grid 
+    text-[30px]
+    md:text-[45px]
+}

@@ -1,0 +1,57 @@
+.open-dialog {
+    @apply
+    rounded-lg
+    h-[237px]
+    w-[507px]
+    bg-white
+    font-poppins
+}
+
+.btn-no{
+    @apply
+    justify-center
+    ml-[60px]
+    font-semibold
+    text-[12px]
+    text-[#000000]
+    mt-[17px]
+    pr-[15px]
+}
+.btn-yes {
+    @apply
+    bg-[#e51616]
+    text-[#fafafb]
+    h-[32px]
+    w-[100px]
+    ml-[50px]
+    justify-center
+    font-semibold
+    text-[12px]
+    mt-[17px]
+    rounded-lg
+}
+
+.modal-text-1 {
+    @apply
+    mt-[23px]
+    text-left
+    px-[20px]
+    text-[17px]  
+  text-[#44444f]
+}
+.modal-text-2{
+    @apply
+    text-left
+    pl-[20px]
+    text-[#808080]
+    text-[12px]
+  
+
+}
+.triangle {
+    @apply
+    mx-auto
+    mt-[20px]
+    w-[40px]
+    h-[36px]
+}

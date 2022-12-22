@@ -1,0 +1,50 @@
+.blog-title {
+    @apply
+    mt-[100px]
+    text-[45px]
+}
+
+.blog-container {
+    @apply
+    md:grid
+    md:grid-cols-12
+}
+
+.blog-arsiv {
+    @apply
+    col-span-4
+    ml-[30px]
+    2xl:ml-[230px]
+    text-[20px]
+    text-[#707070]
+}
+
+.blog-content {
+    @apply
+    col-span-8
+    mb-[150px]
+    2xl:mr-[50px]
+}
+
+.blog-card-header {
+    @apply
+    mt-2
+    md:mt-0
+    leading-5
+}
+
+.blog-arsiv-text{
+    @apply
+    font-satoshi 
+    font-bold 
+    text-[20px]
+}
+
+.blog-arsiv-items{
+    @apply
+    mt-[30px]
+}
+.blog-container li{
+    @apply
+    mt-[15px]
+}

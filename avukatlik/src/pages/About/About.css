@@ -1,0 +1,60 @@
+.hakkımızda-container {
+    @apply
+    md:grid
+    md:grid-cols-2
+    mt-[50px]
+    md:mt-[160px]
+    md:mb-[240px]
+
+}
+
+.about-main-img {
+    @apply
+    relative
+    object-cover
+    object-center
+}
+
+.hakkımızda-container-img {
+    @apply
+    ml-[30px]
+    /* md:ml-[80px] */
+    h-[300px]
+    md:h-[310px]
+    w-[310px]
+    md:h-fit
+    md:w-fit
+    2xl:w-[424px]
+    2xl:h-[405px]
+}
+
+.hakkımızda-container-img img {
+    @apply
+    md:shadow-[20px_20px_1px_#413F46]
+    shadow-[20px_-20px_1px_#413F46]
+}
+.hakkımızda-container-h1{
+    @apply
+    text-[28px]
+    text-[#000000]
+    font-[bold]
+    w-[320px]
+    h-[35px]
+    font-bold
+    font-satoshi
+}
+.hakkımızda-container-text {
+    @apply
+    col-span-1
+    md:mt-0
+    mt-9
+    mx-[20px]
+    md:ml-[85px]
+    2xl:ml-[285px]
+    md:mr-[94px]
+    text-[14px]
+    font-lora
+    text-[#3c3c3c]
+    2xl:text-[18px]
+    2xl:mt-[10px]
+}

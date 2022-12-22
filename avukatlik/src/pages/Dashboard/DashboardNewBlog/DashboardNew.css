@@ -1,0 +1,163 @@
+.dashboard-base {
+    @apply
+    bg-[#FAFAFB]
+}
+
+.dashboard-header {
+    @apply
+    grid
+    grid-cols-12
+    h-[80px]
+    bg-[#FFFFFF]
+    items-center
+}
+
+.dashboard-header-logo {
+    @apply
+    col-span-6
+    ml-[140px]
+    text-[26px]
+    font-satoshi
+    font-bold
+    text-[#3C3C3C]
+}
+
+.dashboard-header-directions {
+    @apply
+    col-span-6
+    flex
+    justify-end
+    mr-[40px]
+}
+
+.dashboard-header-directions ul {
+    @apply
+    flex
+    items-center
+    justify-center
+}
+
+.dashboard-header-directions ul li {
+    @apply
+    mr-[40px]
+    flex
+}
+
+.dashboard-console-mail-container {
+    @apply
+    mt-[50px]
+}
+
+.dashboard-console-left {
+    @apply
+    col-span-3  
+    ml-[140px] 
+    mr-[50px]
+}
+
+.dashboard-console-right {
+    @apply
+    col-span-9
+    bg-[#FFFFFF]
+    rounded-2xl
+    mr-[125px]
+    pb-[30px]
+}
+.dashboard-console-txt-r{
+    @apply
+    text-[18px]
+    font-semibold
+    text-[#171725]
+}
+
+.dashboard-input-text {
+    @apply
+    pt-[30px]
+    pr-[60px]
+}
+
+.dashboard-console-sm-text{
+    @apply
+    text-[#696974]
+    text-[12px]
+    font-light 
+}
+
+.dashboard-console-choise-topic {
+    @apply
+    py-[30px]
+    rounded-none
+    border-b-2
+}
+
+.dashboard-console-cover-photo {
+    @apply
+    py-[30px]
+    rounded-none
+    border-b-2
+}
+
+.dashboard-console-tickets {
+    @apply
+    py-[30px]
+    rounded-none
+    border-b-2
+}
+
+.dashboard-console-settings {
+    @apply
+    py-[30px]
+    rounded-none
+    border-b-2
+}
+
+.dashboard-console-bttn {
+    @apply
+    flex
+    flex-row
+    w-full
+    mt-[30px]
+}
+
+ .dashboard-console-select-file {
+    @apply
+    mt-[20px] 
+    border-2
+    rounded-[10px] 
+    border-[#0062FF]
+/*  
+    
+    border-black
+    
+    bg-[#0062FF]*/
+} 
+
+.custom-file-upload {
+
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    @apply 
+    mt-[18px]
+}
+
+select {
+    @apply
+    border-2
+    border-[#F1F1F5]
+    rounded-[10px]
+}
+
+select:focus {
+    outline: none;
+}
+.txt-day{
+    @apply
+    bg-[#50B5FF]
+    rounded-[10px]
+    w-[94px]
+    h-[24px]
+    text-[10px]
+    text-center
+    text-[#0062FF]
+}

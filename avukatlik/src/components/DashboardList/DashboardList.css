@@ -1,0 +1,118 @@
+.dashboardList-base {
+    @apply
+    bg-[#fafafb]
+    min-h-[1060px]
+}
+
+.dashboardList-content-base {
+    @apply
+    pt-[50px]
+    grid
+    grid-cols-12
+}
+
+.dashboardList-leftbar {
+    @apply
+    col-span-3
+    pl-[144px]
+}
+
+.dashboardList-return {
+    @apply
+    bg-[#f1f1f5]
+    px-[7px]
+    py-[5px]
+    font-semibold
+    font-poppins
+    underline
+    text-[18px]
+    flex
+    items-center
+    w-fit
+}
+
+.dashboardList-return p { 
+    @apply
+    ml-[10px]
+}
+
+.dashboardList-return-icon {
+    @apply
+    border-2
+    p-[2px]
+    border-[#171725]
+    rounded-full
+}
+
+.dashboardList-search { 
+    @apply
+    font-semibold
+    font-poppins
+    mt-[56px]
+    text-[#171725]
+    text-[16px]
+}
+
+.dashboardList-search input {
+    @apply
+    mt-[18px]
+    w-[280px]
+    h-[50px]
+}
+
+.dashboardList-search input:focus {
+    outline: none
+}
+
+.dashboardList-filter {
+    @apply
+    mt-[60px]
+}
+
+.dashboardList-filter h6 {
+    @apply
+    font-semibold
+    font-poppins
+    text-[16px]
+    text-[#171725]
+}
+
+.dashboardList-filter p {
+    @apply
+    text-[#92929d]
+    text-[14px]
+}
+
+.dashboardList-filter select {
+    @apply
+    w-[280px]
+    h-10
+    rounded-xl
+    mt-[12px]
+}
+
+.dashboardList-tags {
+    @apply
+    mt-[30px]
+}
+
+.dashboardList-tags select {
+    @apply
+    w-[280px]
+    h-10
+    rounded-xl
+    mt-[12px]
+}
+
+.dashboardList-tags p {
+    @apply
+    font-semibold
+    font-poppins
+    text-[16px]
+    text-[#171725]
+}
+
+.dashboardList-content {
+    @apply
+    col-span-9
+}
